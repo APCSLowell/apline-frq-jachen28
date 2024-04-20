@@ -10,7 +10,7 @@ public class APLine
    num3 = c;
  }
 
-  public int getSlope(){
+  public double getSlope(){
     return (double)-num1/num2;
   }
 
