@@ -11,11 +11,11 @@ public class APLine
  }
 
   public int getSlope(){
-    return (double)-a/b;
+    return (double)-num1/num2;
   }
 
   public boolean isOnLine(int x, int y){
-    if(a * x + b * y + c == 0){
+    if(num1 * x + num2 * y + num3 == 0){
       return true;
     }
     return false;
