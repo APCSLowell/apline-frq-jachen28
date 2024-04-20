@@ -8,8 +8,9 @@ public class APLine
   num1 = a;
    num2 = b;
    num3 = c;
+   private double slope = -num1/num2;
  }
-  private double slope = -num1/num2;
+  
   public double getSlope(){
     return slope;
   }
