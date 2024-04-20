@@ -3,7 +3,6 @@ public class APLine
   private int num1; 
   private int num2;
   private int num3;
-  private double slope = -num1/num2;
   
  public APLine(int a, int b, int c){
   num1 = a;
@@ -13,7 +12,7 @@ public class APLine
  }
   
   public double getSlope(){
-    return slope;
+    return (double)-num1/num2;
   }
 
   public boolean isOnLine(int x, int y){
