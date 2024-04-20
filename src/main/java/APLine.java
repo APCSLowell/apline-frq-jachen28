@@ -9,9 +9,9 @@ public class APLine
    num2 = b;
    num3 = c;
  }
-
+  private double slope = -num1/num2;
   public double getSlope(){
-    return (double)-num1/num2;
+    return slope;
   }
 
   public boolean isOnLine(int x, int y){
